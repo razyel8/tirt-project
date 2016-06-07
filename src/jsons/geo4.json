@@ -1,0 +1,174 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0333,
+          51.1
+        ]
+      },
+      "properties": {
+        "country": "PL",
+        "city": "Wroclaw"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            17.0333,
+            51.1
+          ],
+          [
+            21.0167,
+            52.2333
+          ]
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0167,
+          52.2333
+        ]
+      },
+      "properties": {
+        "country": "PL",
+        "city": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            21.0167,
+            52.2333
+          ],
+          [
+            16.3667,
+            48.2
+          ]
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3667,
+          48.2
+        ]
+      },
+      "properties": {
+        "country": "AT",
+        "city": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.3667,
+            48.2
+          ],
+          [
+            16.3667,
+            48.2
+          ]
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3667,
+          48.2
+        ]
+      },
+      "properties": {
+        "country": "AT",
+        "city": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.3667,
+            48.2
+          ],
+          [
+            16.3667,
+            48.2
+          ]
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3667,
+          48.2
+        ]
+      },
+      "properties": {
+        "country": "AT",
+        "city": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.3667,
+            48.2
+          ],
+          [
+            4.9,
+            52.3667
+          ]
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9,
+          52.3667
+        ]
+      },
+      "properties": {
+        "country": "NL",
+        "city": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+[
+  {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            16.3667,
+            48.2
+          ]
+        },
+        "properties": {
+          "country": "AT",
+          "city": ""
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              16.3667,
+              48.2
+            ],
+            [
+              16.3667,
+              48.2
+            ]
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            16.3667,
+            48.2
+          ]
+        },
+        "properties": {
+          "country": "AT",
+          "city": ""
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              16.3667,
+              48.2
+            ],
+            [
+              16.3667,
+              48.2
+            ]
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            16.3667,
+            48.2
+          ]
+        },
+        "properties": {
+          "country": "AT",
+          "city": ""
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              16.3667,
+              48.2
+            ],
+            [
+              105,
+              35
+            ]
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            105,
+            35
+          ]
+        },
+        "properties": {
+          "country": "CN",
+          "city": ""
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              105,
+              35
+            ],
+            [
+              105,
+              35
+            ]
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            105,
+            35
+          ]
+        },
+        "properties": {
+          "country": "CN",
+          "city": ""
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              105,
+              35
+            ],
+            [
+              105,
+              35
+            ]
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            105,
+            35
+          ]
+        },
+        "properties": {
+          "country": "CN",
+          "city": ""
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              105,
+              35
+            ],
+            [
+              105,
+              35
+            ]
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            105,
+            35
+          ]
+        },
+        "properties": {
+          "country": "CN",
+          "city": ""
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              105,
+              35
+            ],
+            [
+              116.3883,
+              39.9289
+            ]
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            116.3883,
+            39.9289
+          ]
+        },
+        "properties": {
+          "country": "CN",
+          "city": "Beijing"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              116.3883,
+              39.9289
+            ],
+            [
+              116.3883,
+              39.9289
+            ]
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            116.3883,
+            39.9289
+          ]
+        },
+        "properties": {
+          "country": "CN",
+          "city": "Beijing"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              116.3883,
+              39.9289
+            ],
+            [
+              116.3883,
+              39.9289
+            ]
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            116.3883,
+            39.9289
+          ]
+        },
+        "properties": {
+          "country": "CN",
+          "city": "Beijing"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              116.3883,
+              39.9289
+            ],
+            [
+              116.3883,
+              39.9289
+            ]
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            116.3883,
+            39.9289
+          ]
+        },
+        "properties": {
+          "country": "CN",
+          "city": "Beijing"
+        }
+      }
+    ]
+  },
+  [
+    {
+      "ip": "84.116.253.185",
+      "t1": 49,
+      "t2": 46,
+      "t3": 47,
+      "avg": 47.333333333333336
+    },
+    {
+      "ip": "84.116.137.17",
+      "t1": 47,
+      "t2": 69,
+      "t3": 59,
+      "avg": 58.333333333333336
+    },
+    {
+      "ip": "84.116.134.10",
+      "t1": 49,
+      "t2": 49,
+      "t3": 51,
+      "avg": 49.666666666666664
+    },
+    {
+      "ip": "219.158.42.53",
+      "t1": 270,
+      "t2": 269,
+      "t3": 270,
+      "avg": 269.6666666666667
+    },
+    {
+      "ip": "219.158.107.113",
+      "t1": 291,
+      "t2": 291,
+      "t3": 295,
+      "avg": 292.3333333333333
+    },
+    {
+      "ip": "219.158.98.145",
+      "t1": 292,
+      "t2": 291,
+      "t3": 291,
+      "avg": 291.3333333333333
+    },
+    {
+      "ip": "219.158.3.9",
+      "t1": 294,
+      "t2": 293,
+      "t3": 291,
+      "avg": 292.6666666666667
+    },
+    {
+      "ip": "124.65.194.158",
+      "t1": 291,
+      "t2": 291,
+      "t3": 291,
+      "avg": 291
+    },
+    {
+      "ip": "61.148.1.165",
+      "t1": 295,
+      "t2": 291,
+      "t3": 292,
+      "avg": 292.6666666666667
+    },
+    {
+      "ip": "61.148.174.234",
+      "t1": 298,
+      "t2": 293,
+      "t3": 294,
+      "avg": 295
+    },
+    {
+      "ip": "111.193.186.221",
+      "t1": 295,
+      "t2": 295,
+      "t3": 294,
+      "avg": 294.6666666666667
+    }
+  ]
+]

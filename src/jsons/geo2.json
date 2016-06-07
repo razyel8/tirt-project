@@ -1,0 +1,95 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0333,
+        51.1
+        ]
+      },
+      "properties": {
+        "country": "PL",
+        "city": "Wroclaw"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.2333,
+          21.0167
+        ]
+      },
+      "properties": {
+        "country": "PL",
+        "city": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.2,
+          16.3667
+        ]
+      },
+      "properties": {
+        "country": "AT",
+        "city": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.2,
+          16.3667
+        ]
+      },
+      "properties": {
+        "country": "AT",
+        "city": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.2,
+          16.3667
+        ]
+      },
+      "properties": {
+        "country": "AT",
+        "city": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.3667,
+          4.9
+        ]
+      },
+      "properties": {
+        "country": "NL",
+        "city": ""
+      }
+    }
+  ]
+}
