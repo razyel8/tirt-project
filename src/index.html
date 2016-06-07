@@ -29,7 +29,7 @@
         }
 
         .map {
-            height: 400px;
+            height: 600px;
             width: 100%;
         }
     </style>
@@ -44,13 +44,13 @@
                 <label for="exampleInputName2">Adres: </label>
                 <input type="text" ng-model="destination" class="form-control" id="exampleInputName2" placeholder="IP lub URL">
             </div>
-            <button type="submit" class="btn btn-primary">Traceroute</button>
+            <button type="submit" class="btn btn-primary" ng-click="traceroute()">Traceroute</button>
         </form>
         <br>
         <div id="map" class="map"></div>
     </div>
     <traceroute-table></traceroute-table>
-    <p>{{$scope.geoJson}}</p>
+    <p>{{geoJson}}</p>
 </div>
 <!-- bower:js -->
 <script src="../bower_components/angular/angular.js"></script>

@@ -1,13 +1,14 @@
 var express = require('express');
 var path = require('path');
 var bodyParser = require('body-parser');
-
-
 var app = express();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
-app.use(express.static(path.join(__dirname, 'public')));
+//app.use(express.static(path.join(__dirname, 'src')));
+
+app.use('/src', express.static('src'));
+app.use('/bower_components', express.static('bower_components'));
 
 var traceroute = require('traceroute');
 var geoip = require('geoip-local');
