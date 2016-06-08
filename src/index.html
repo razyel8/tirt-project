@@ -6,6 +6,8 @@
     <!-- bower:css -->
     <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
     <!-- endinject -->
+    <link rel="stylesheet" href="//cdn.leafletjs.com/leaflet-0.7.3/leaflet.css">
+    <!--<link rel="stylesheet" href="css/app.css">-->
 
     <!-- inject:css -->
     <link rel="stylesheet" href="css/main.css">
@@ -28,7 +30,7 @@
             stroke-opacity: .6;
         }
 
-        .map {
+        #map-container {
             height: 600px;
             width: 100%;
         }
@@ -37,32 +39,54 @@
 
 </head>
 <body ng-app="pd">
-<div class="row" ng-controller="TracerouteCtrl">
+<div class="container" ng-controller="TracerouteCtrl">
+<!--<div class="row">-->
+    <!--<div class="col-md-12">-->
+        <!--<textarea id="geojson-input" placeholder="Paste GeoJSON here" class="form-control" style="margin-bottom: 10px;"></textarea>-->
+        <!--<input id="clear-current" type="checkbox" checked="checked">-->
+        <!--<a id="submit" class="btn btn-primary btn-large btn-action">Test GeoJSON</a>-->
+    <!--</div>-->
+<!--</div>-->
+<div class="row">
     <div class="col-md-12">
+        <h6>Wprowadź adres, a następnie poczekaj ok. 30-60 sekund</h6>
         <form class="form-inline">
             <div class="form-group">
                 <label for="exampleInputName2">Adres: </label>
                 <input type="text" ng-model="destination" class="form-control" id="exampleInputName2" placeholder="IP lub URL">
             </div>
             <button type="submit" class="btn btn-primary" ng-click="traceroute()">Traceroute</button>
+            <img src="img/load-icon.gif" height="35" ng-show="loading">
         </form>
         <br>
-        <div id="map" class="map"></div>
+        <div id="map-container" class="map"></div>
     </div>
-    <traceroute-table></traceroute-table>
-    <p>{{geoJson}}</p>
+
 </div>
+<traceroute-table></traceroute-table>
+    <div class="row">
+        <p>{{geoJson}}</p>
+    </div>
+</div>
+
+
+
 <!-- bower:js -->
 <script src="../bower_components/angular/angular.js"></script>
 <script src="../bower_components/jquery/dist/jquery.js"></script>
 <script src="../bower_components/d3/d3.js"></script>
 <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
 <!-- endinject -->
+<script src="//cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<script src="js/geojsonhint.js"></script>
+<script src="js/app.js"></script>
+
 <script src="app.js"></script>
 <!-- inject:js -->
 <script src="components/traceroute/tracerouteCtrl.js"></script>
 <script src="components/traceroute/tracerouteDir.js"></script>
-<script src="js/map.js"></script>
+<!--<script src="js/map.js"></script>-->
+
 <!-- endinject -->
 </body>
 </html>

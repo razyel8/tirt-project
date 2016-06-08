@@ -4,7 +4,7 @@ var bodyParser = require('body-parser');
 var app = express();
 
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.urlencoded({extended: true}));
 //app.use(express.static(path.join(__dirname, 'src')));
 
 app.use('/src', express.static('src'));
@@ -53,9 +53,11 @@ function Hop(ip, t1, t2, t3) {
     }
 }
 
-app.get('/tracert', function (req, res) {
+app.post('/tracert', function (req, res) {
+    console.log(req.body.address);
     var featuresArr = [];
     var routeTable = [];
+    destination = req.body.address;
     traceroute.trace(destination, function (err, hops) {
         console.log("2");
         if (!err) {
